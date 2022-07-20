@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-export const BlockpoolMarketMarkingServices1 = ({}) => {
+const BlockpoolMarketMarkingServices1 = () => {
   return (
     <BlockpoolMarketMarkingServicesRoot>
       <Element1 src={`https://file.rendit.io/n/QSQHuXz1FtzidIZcsdDR.png`} />
@@ -137,6 +137,7 @@ export const BlockpoolMarketMarkingServices1 = ({}) => {
     </BlockpoolMarketMarkingServicesRoot>
   );
 };
+export default BlockpoolMarketMarkingServices1;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
